@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: crimson;
+  text-align: center;
+
+  background-image:
+    linear-gradient(to bottom, #f08080 80%, rgba(240, 128, 128, 0) 50%),
+    url("https://i.pinimg.com/originals/02/c5/2c/02c52cbc3cd4bc56dc2c7560fc8aeb73.png");
+
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%, 80px 80px;
+  background-position: top left, bottom left;
+}
+
+.card-content{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.text{
+  text-align: center;
+}
+
+@media (max-width: 600px){
+  .card-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .text{
+    text-align: center;
+  }
+}

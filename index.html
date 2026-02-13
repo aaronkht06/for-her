@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Valentine’s</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:"Poppins",sans-serif;
+      text-align:center;
+      color:crimson;
+
+      /* Top half = gradient, bottom = pochacco pattern */
+      background-image:
+        linear-gradient(#f08080, #f6a0a0),
+        url("https://i.pinimg.com/originals/02/c5/2c/02c52cbc3cd4bc56dc2c7560fc8aeb73.png");
+
+      background-repeat: no-repeat, repeat;
+      background-size: 100% 55%, 80px 80px;
+      background-position: top left, left 55%;
+    }
+
+    h1{
+      margin:0;
+      padding: 60px 16px 30px;
+      font-size: clamp(42px, 6vw, 84px);
+      letter-spacing: 1px;
+      text-shadow: 0 2px 0 rgba(0,0,0,0.08);
+    }
+
+    .card{
+      max-width: 720px;
+      margin: 20px auto 60px;
+      padding: 18px 18px 22px;
+      background: rgba(255,255,255,0.6);
+      border-radius: 18px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .card-content{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .flower{
+      width: 140px;
+      height: 140px;
+      object-fit: contain;     /* important for PNGs */
+      border-radius: 18px;
+      background: rgba(255,255,255,0.45);
+      padding: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+      flex: 0 0 auto;
+    }
+
+    .text{
+      text-align:left;
+      flex: 1;
+    }
+
+    .card p{
+      margin: 0 0 14px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #7a0d23;
+    }
+
+    /* Phone: stack image on top */
+    @media (max-width: 600px){
+      .card-content{
+        flex-direction: column;
+        text-align:center;
+      }
+      .text{
+        text-align:center;
+      }
+      .flower{
+        width: 180px;
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Happy Valentine’s!</h1>
+
+  <div class="card">
+    <div class="card-content">
+
+      <img class="flower"
+        src="https://static.vecteezy.com/system/resources/previews/060/360/675/non_2x/beautiful-lily-of-the-valley-flower-in-full-bloom-with-delicate-transparent-petals-against-a-pure-transparent-background-lily-of-the-valleys-flower-isolated-on-transparent-background-free-png.png"
+        alt="favorite flower">
+
+      <div class="text">
+        <p><strong>For Ahlinkar,</strong></p>
+
+        <p>
+          I know you said you didn't want anything grand and you didn't want me to spend money for valentine's,
+          so I wanted to get you something small but personal. So I made this lil webpage for you.
+          It looks simple, but I put my time n effort into learning HTML again just for u 🥸
+        </p>
+
+        <p>
+          I lowkey wasn't expecting to give a valentines gift this year to anyone, but we happened,
+          and I'm rlly glad that it was you. Whenever you're down or maybe even miss me,
+          you can open this link and I hope it makes you feel better.
+          I rlly like you and you mean a whole lot to me.
+        </p>
+
+        <p>— From your (hopefully) favorite dumbass</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
